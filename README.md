@@ -67,7 +67,7 @@ If you use this tool in your research, please cite:
   publisher    = {Zenodo},
   version      = {v0.12},
   doi          = {PENDING},
-  url          = {https://github.com/hirokitamba-ops/research-data-explorer}
+  url          = {https://github.com/hiroki-tamba-research/research-data-explorer}
 }
 ```
 
