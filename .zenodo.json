@@ -1,5 +1,5 @@
 {
-  "title": "Research Data Explorer: Multi-source health and development data via open APIs",
+  "title": "Saluscope: Multi-source health and development data via open APIs",
   "description": "A single-file, zero-build HTML application for exploring international health and development indicators across World Bank WDI, WHO/UNAIDS/JHU (via Our World in Data), and the IHME Global Burden of Disease study. Features natural-language bilingual (Japanese/English) search, interactive world map, time-series charts, CSV export, and user-uploadable IHME CSVs. Extensible to any indicator via small JavaScript adapters.",
   "creators": [
     {

@@ -1,12 +1,12 @@
 # 30-Minute DOI Setup Guide
 
-This guide walks you through publishing **Research Data Explorer** as a citable software artifact with a permanent DOI via Zenodo + GitHub.
+This guide walks you through publishing **Saluscope** as a citable software artifact with a permanent DOI via Zenodo + GitHub.
 
 **Estimated total time: 30 minutes.**
 
 ## What you'll have at the end
 
-- A GitHub repository at `https://github.com/hiroki-tamba-research/research-data-explorer`
+- A GitHub repository at `https://github.com/hiroki-tamba-research/saluscope`
 - A Zenodo deposit with a permanent DOI like `https://doi.org/10.5281/zenodo.XXXXXXX`
 - A "Cite this software" button on your GitHub repo
 - Auto-updating: future Releases automatically mint new versioned DOIs
@@ -16,7 +16,7 @@ This guide walks you through publishing **Research Data Explorer** as a citable 
 ## Step 1 — Create the GitHub repository (5 min)
 
 1. Go to **https://github.com/new**
-2. Repository name: `research-data-explorer` (or your choice; if you change it, update the URLs in `README.md`, `CITATION.cff`, `.zenodo.json`)
+2. Repository name: `saluscope` (or your choice; if you change it, update the URLs in `README.md`, `CITATION.cff`, `.zenodo.json`)
 3. Description: `Multi-source health & development data explorer via open APIs. Extensible to any indicator.`
 4. Set to **Public**
 5. **Do NOT** initialize with README, .gitignore, or license — we'll push our prepared files
@@ -47,7 +47,7 @@ git init
 git add .
 git commit -m "Initial commit: v0.12 — API-extensible health data explorer"
 git branch -M main
-git remote add origin https://github.com/hiroki-tamba-research/research-data-explorer.git
+git remote add origin https://github.com/hiroki-tamba-research/saluscope.git
 git push -u origin main
 ```
 
@@ -62,7 +62,7 @@ GitHub will also detect `CITATION.cff` automatically and show a **"Cite this rep
 1. Go to **https://zenodo.org/account/settings/github/**
 2. Sign in with GitHub (Zenodo supports GitHub SSO)
 3. Authorize Zenodo to access your repositories (read-only is fine)
-4. On the Zenodo GitHub settings page, find `research-data-explorer` in the list
+4. On the Zenodo GitHub settings page, find `saluscope` in the list
 5. Flip the toggle **ON** for that repository
 
 Zenodo is now watching your repo. The next Release you create will be archived automatically.
@@ -79,7 +79,7 @@ Zenodo is now watching your repo. The next Release you create will be archived a
 6. **Description** (paste this in):
 
 ```markdown
-Initial public DOI-citable release of Research Data Explorer.
+Initial public DOI-citable release of Saluscope.
 
 ## Features
 - Multi-source health & development data: World Bank WDI, OWID (WHO/UNAIDS/JHU), PubMed
@@ -92,7 +92,7 @@ Initial public DOI-citable release of Research Data Explorer.
 
 ## Citation
 
-Tamba, H. (2026). Research Data Explorer (v0.12.0) [Software]. Zenodo. https://doi.org/[FILL-IN-AFTER-RELEASE]
+Tamba, H. (2026). Saluscope (v0.12.0) [Software]. Zenodo. https://doi.org/[FILL-IN-AFTER-RELEASE]
 
 ## Changelog
 
@@ -152,14 +152,14 @@ This is the most important step for **establishing public timestamp evidence**:
 
 ```
 新しい研究ツールを公開しました。
-Research Data Explorer v0.12
+Saluscope v0.12
 
 世界の保健・開発データを複数のオープンAPIから一括検索・可視化。
 WDI / OWID / IHME / PubMed 統合。
 日英バイリンガル自然言語検索対応。
 
 DOI: https://doi.org/10.5281/zenodo.XXXXXXX
-GitHub: https://github.com/hiroki-tamba-research/research-data-explorer
+GitHub: https://github.com/hiroki-tamba-research/saluscope
 
 #OpenScience #GlobalHealth
 ```

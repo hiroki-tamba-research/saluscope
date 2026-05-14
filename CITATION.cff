@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: "Research Data Explorer: Multi-source health and development data via open APIs"
+title: "Saluscope: Multi-source health and development data via open APIs"
 message: "If you use this software, please cite it as below."
 type: software
 authors:
@@ -10,7 +10,7 @@ identifiers:
   - type: doi
     value: PENDING
     description: "Zenodo concept DOI (resolves to latest version)"
-repository-code: "https://github.com/hiroki-tamba-research/research-data-explorer"
+repository-code: "https://github.com/hiroki-tamba-research/saluscope"
 abstract: >-
   A single-file, zero-build HTML application for exploring international
   health and development indicators across World Bank WDI, WHO/UNAIDS/JHU

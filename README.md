@@ -1,4 +1,4 @@
-# Research Data Explorer
+# Saluscope
 
 [![DOI](https://zenodo.org/badge/DOI/PENDING.svg)](https://doi.org/PENDING)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -62,12 +62,12 @@ If you use this tool in your research, please cite:
 ```bibtex
 @software{tamba_research_data_explorer,
   author       = {Tamba, Hiroki},
-  title        = {Research Data Explorer: Multi-source health and development data via open APIs},
+  title        = {Saluscope: Multi-source health and development data via open APIs},
   year         = 2026,
   publisher    = {Zenodo},
   version      = {v0.12},
   doi          = {PENDING},
-  url          = {https://github.com/hiroki-tamba-research/research-data-explorer}
+  url          = {https://github.com/hiroki-tamba-research/saluscope}
 }
 ```
 
