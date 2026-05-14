@@ -1,0 +1,55 @@
+{
+  "title": "Research Data Explorer: Multi-source health and development data via open APIs",
+  "description": "A single-file, zero-build HTML application for exploring international health and development indicators across World Bank WDI, WHO/UNAIDS/JHU (via Our World in Data), and the IHME Global Burden of Disease study. Features natural-language bilingual (Japanese/English) search, interactive world map, time-series charts, CSV export, and user-uploadable IHME CSVs. Extensible to any indicator via small JavaScript adapters.",
+  "creators": [
+    {
+      "name": "Tamba, Hiroki",
+      "affiliation": "Independent researcher"
+    }
+  ],
+  "upload_type": "software",
+  "license": "MIT",
+  "keywords": [
+    "global health",
+    "data visualization",
+    "health indicators",
+    "open data",
+    "World Bank",
+    "Our World in Data",
+    "IHME",
+    "GBD",
+    "disease burden",
+    "epidemiology",
+    "research tools",
+    "open science",
+    "natural language interface"
+  ],
+  "access_right": "open",
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "relation": "isCompiledBy",
+      "identifier": "https://api.worldbank.org/v2/",
+      "scheme": "url",
+      "resource_type": "dataset"
+    },
+    {
+      "relation": "isCompiledBy",
+      "identifier": "https://ourworldindata.org/",
+      "scheme": "url",
+      "resource_type": "dataset"
+    },
+    {
+      "relation": "isCompiledBy",
+      "identifier": "https://vizhub.healthdata.org/gbd-results/",
+      "scheme": "url",
+      "resource_type": "dataset"
+    },
+    {
+      "relation": "isCompiledBy",
+      "identifier": "https://eutils.ncbi.nlm.nih.gov/",
+      "scheme": "url",
+      "resource_type": "dataset"
+    }
+  ]
+}

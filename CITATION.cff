@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+title: "Research Data Explorer: Multi-source health and development data via open APIs"
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - family-names: Tamba
+    given-names: Hiroki
+    orcid: "https://orcid.org/PENDING"
+identifiers:
+  - type: doi
+    value: PENDING
+    description: "Zenodo concept DOI (resolves to latest version)"
+repository-code: "https://github.com/hiroki-tamba-research/research-data-explorer"
+abstract: >-
+  A single-file, zero-build HTML application for exploring international
+  health and development indicators across World Bank WDI, WHO/UNAIDS/JHU
+  (via Our World in Data), and the IHME Global Burden of Disease study.
+  Features natural-language bilingual (Japanese/English) search, interactive
+  world map, time-series charts, CSV export, and user-uploadable IHME CSVs.
+  Extensible to any indicator via small JavaScript adapters.
+keywords:
+  - global health
+  - data visualization
+  - health indicators
+  - open data
+  - World Bank
+  - Our World in Data
+  - IHME
+  - GBD
+  - disease burden
+  - epidemiology
+  - research tools
+  - open science
+license: MIT
+version: "0.12.0"
+date-released: 2026-05-14
