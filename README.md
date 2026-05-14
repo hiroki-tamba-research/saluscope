@@ -1,6 +1,6 @@
 # Saluscope
 
-[![DOI](https://zenodo.org/badge/DOI/PENDING.svg)](https://doi.org/PENDING)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20175133.svg)](https://doi.org/10.5281/zenodo.20175133)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 > Multi-source health & development data explorer via open APIs.
@@ -60,13 +60,13 @@ This tool does **not** redistribute IHME data. Users must obtain GBD Results CSV
 If you use this tool in your research, please cite:
 
 ```bibtex
-@software{tamba_research_data_explorer,
+@software{tamba_saluscope,
   author       = {Tamba, Hiroki},
   title        = {Saluscope: Multi-source health and development data via open APIs},
   year         = 2026,
   publisher    = {Zenodo},
-  version      = {v0.12},
-  doi          = {PENDING},
+  version      = {v0.12.0},
+  doi          = {10.5281/zenodo.20175133},
   url          = {https://github.com/hiroki-tamba-research/saluscope}
 }
 ```

@@ -5,10 +5,10 @@ type: software
 authors:
   - family-names: Tamba
     given-names: Hiroki
-    orcid: "https://orcid.org/PENDING"
+    orcid: "https://orcid.org/0009-0004-7635-0741"
 identifiers:
   - type: doi
-    value: PENDING
+    value: 10.5281/zenodo.20175133
     description: "Zenodo concept DOI (resolves to latest version)"
 repository-code: "https://github.com/hiroki-tamba-research/saluscope"
 abstract: >-
