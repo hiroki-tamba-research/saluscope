@@ -10,7 +10,7 @@ identifiers:
   - type: doi
     value: PENDING
     description: "Zenodo concept DOI (resolves to latest version)"
-repository-code: "https://github.com/hiroki-tamba-research/research-data-explorer"
+repository-code: "https://github.com/hirokitamba-ops/research-data-explorer"
 abstract: >-
   A single-file, zero-build HTML application for exploring international
   health and development indicators across World Bank WDI, WHO/UNAIDS/JHU

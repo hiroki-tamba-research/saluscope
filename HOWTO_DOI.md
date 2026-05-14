@@ -6,7 +6,7 @@ This guide walks you through publishing **Research Data Explorer** as a citable 
 
 ## What you'll have at the end
 
-- A GitHub repository at `https://github.com/hiroki-tamba-research/research-data-explorer`
+- A GitHub repository at `https://github.com/hirokitamba-ops/research-data-explorer`
 - A Zenodo deposit with a permanent DOI like `https://doi.org/10.5281/zenodo.XXXXXXX`
 - A "Cite this software" button on your GitHub repo
 - Auto-updating: future Releases automatically mint new versioned DOIs
@@ -47,7 +47,7 @@ git init
 git add .
 git commit -m "Initial commit: v0.12 — API-extensible health data explorer"
 git branch -M main
-git remote add origin https://github.com/hiroki-tamba-research/research-data-explorer.git
+git remote add origin https://github.com/hirokitamba-ops/research-data-explorer.git
 git push -u origin main
 ```
 
@@ -159,7 +159,7 @@ WDI / OWID / IHME / PubMed 統合。
 日英バイリンガル自然言語検索対応。
 
 DOI: https://doi.org/10.5281/zenodo.XXXXXXX
-GitHub: https://github.com/hiroki-tamba-research/research-data-explorer
+GitHub: https://github.com/hirokitamba-ops/research-data-explorer
 
 #OpenScience #GlobalHealth
 ```
